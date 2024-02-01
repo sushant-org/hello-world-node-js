@@ -19,3 +19,16 @@ jobs:
       - name: Display Run ID
         run: echo "Run ID ${{ github.run_id }}"
 
+      - uses: port-labs/port-github-action@v1
+        with:
+          clientId: ${{ secrets.PORT_CLIENT_ID }}
+          clientSecret: ${{ secrets.PORT_CLIENT_SECRET }}
+          baseUrl: https://api.getport.io
+          operation: UPSERT
+          identifier: some_identifier
+          title: Some Title
+          blueprint: hello_world
+          properties: |-
+            {
+              "name": "string"
+            }
