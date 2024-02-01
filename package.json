@@ -1,0 +1,23 @@
+{
+  "name": "hello-world-node-js",
+  "version": "1.0.0",
+  "description": "Hello world",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushant-org/hello-world-node-js.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sushant-org/hello-world-node-js/issues"
+  },
+  "homepage": "https://github.com/sushant-org/hello-world-node-js#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
