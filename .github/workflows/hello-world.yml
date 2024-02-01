@@ -25,7 +25,7 @@ jobs:
           clientSecret: ${{ secrets.PORT_CLIENT_SECRET }}
           baseUrl: https://api.getport.io
           operation: UPSERT
-          identifier: some_identifier
+          identifier: some_other_identifier
           title: Some Title
           blueprint: hello_world
           properties: |-
